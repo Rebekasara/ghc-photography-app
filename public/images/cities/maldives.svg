@@ -1,0 +1,90 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tropicalSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="lagoon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00CED1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Tropical sky -->
+  <rect width="400" height="300" fill="url(#tropicalSky)"/>
+  
+  <!-- Ocean -->
+  <rect y="150" width="400" height="150" fill="url(#lagoon)"/>
+  
+  <!-- Main island -->
+  <ellipse cx="200" cy="200" rx="80" ry="30" fill="#F5DEB3"/>
+  
+  <!-- Smaller islands -->
+  <ellipse cx="100" cy="180" rx="25" ry="12" fill="#F5DEB3"/>
+  <ellipse cx="320" cy="220" rx="30" ry="15" fill="#F5DEB3"/>
+  <ellipse cx="50" cy="240" rx="20" ry="10" fill="#F5DEB3"/>
+  <ellipse cx="350" cy="180" rx="18" ry="8" fill="#F5DEB3"/>
+  
+  <!-- Palm trees on main island -->
+  <g transform="translate(180,185)">
+    <rect x="-2" y="0" width="4" height="25" fill="#8B4513"/>
+    <ellipse cx="0" cy="-5" rx="12" ry="8" fill="#228B22"/>
+    <ellipse cx="-8" cy="-8" rx="8" ry="5" fill="#32CD32"/>
+    <ellipse cx="8" cy="-8" rx="8" ry="5" fill="#32CD32"/>
+    <ellipse cx="0" cy="-12" rx="10" ry="6" fill="#228B22"/>
+  </g>
+  
+  <g transform="translate(220,190)">
+    <rect x="-2" y="0" width="4" height="20" fill="#8B4513"/>
+    <ellipse cx="0" cy="-5" rx="10" ry="6" fill="#228B22"/>
+    <ellipse cx="-6" cy="-8" rx="6" ry="4" fill="#32CD32"/>
+    <ellipse cx="6" cy="-8" rx="6" ry="4" fill="#32CD32"/>
+  </g>
+  
+  <!-- Palm trees on smaller islands -->
+  <g transform="translate(100,170)">
+    <rect x="-1" y="0" width="2" height="15" fill="#8B4513"/>
+    <ellipse cx="0" cy="-3" rx="6" ry="4" fill="#228B22"/>
+  </g>
+  
+  <g transform="translate(320,210)">
+    <rect x="-1" y="0" width="2" height="18" fill="#8B4513"/>
+    <ellipse cx="0" cy="-4" rx="8" ry="5" fill="#228B22"/>
+  </g>
+  
+  <!-- Overwater bungalows -->
+  <g transform="translate(150,200)">
+    <rect x="-8" y="-5" width="16" height="10" fill="#8B4513"/>
+    <polygon points="-10,-5 0,-12 10,-5" fill="#654321"/>
+    <rect x="-12" y="5" width="24" height="3" fill="#8B4513"/>
+  </g>
+  
+  <g transform="translate(250,205)">
+    <rect x="-6" y="-4" width="12" height="8" fill="#8B4513"/>
+    <polygon points="-8,-4 0,-10 8,-4" fill="#654321"/>
+    <rect x="-10" y="4" width="20" height="2" fill="#8B4513"/>
+  </g>
+  
+  <!-- Coral reefs (underwater) -->
+  <ellipse cx="120" cy="220" rx="15" ry="8" fill="#FF7F50" opacity="0.6"/>
+  <ellipse cx="280" cy="240" rx="20" ry="10" fill="#FF6347" opacity="0.5"/>
+  <ellipse cx="180" cy="250" rx="12" ry="6" fill="#FF7F50" opacity="0.7"/>
+  
+  <!-- Tropical fish -->
+  <ellipse cx="140" cy="230" rx="3" ry="2" fill="#FFD700"/>
+  <ellipse cx="260" cy="225" rx="2" ry="1" fill="#FF69B4"/>
+  <ellipse cx="300" cy="245" rx="3" ry="2" fill="#00CED1"/>
+  
+  <!-- Seabirds -->
+  <path d="M80,100 Q85,95 90,100" stroke="white" stroke-width="2" fill="none"/>
+  <path d="M320,80 Q325,75 330,80" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="50" r="25" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="100" cy="60" rx="30" ry="12" fill="white" opacity="0.7"/>
+  <ellipse cx="300" cy="70" rx="25" ry="10" fill="white" opacity="0.6"/>
+  
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8)">MALDIVES</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="africanSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF7F50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- African sunset sky -->
+  <rect width="400" height="300" fill="url(#africanSky)"/>
+  
+  <!-- Table Mountain -->
+  <rect x="50" y="80" width="300" height="80" fill="#8B4513"/>
+  <rect x="50" y="70" width="300" height="10" fill="#A0522D"/>
+  
+  <!-- Mountain shadows and details -->
+  <polygon points="50,160 100,120 150,160" fill="#654321"/>
+  <polygon points="200,160 250,130 300,160" fill="#654321"/>
+  <polygon points="300,160 350,125 400,160" fill="#654321"/>
+  
+  <!-- City buildings at base -->
+  <rect x="80" y="160" width="20" height="40" fill="#2C3E50"/>
+  <rect x="110" y="150" width="25" height="50" fill="#34495E"/>
+  <rect x="140" y="165" width="18" height="35" fill="#2C3E50"/>
+  <rect x="170" y="155" width="30" height="45" fill="#34495E"/>
+  <rect x="210" y="160" width="22" height="40" fill="#2C3E50"/>
+  <rect x="240" y="150" width="28" height="50" fill="#34495E"/>
+  <rect x="280" y="165" width="20" height="35" fill="#2C3E50"/>
+  <rect x="310" y="155" width="25" height="45" fill="#34495E"/>
+  
+  <!-- Ocean -->
+  <rect y="200" width="400" height="100" fill="#1E6091"/>
+  
+  <!-- Waves -->
+  <path d="M0,210 Q50,205 100,210 T200,210" stroke="white" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M200,215 Q250,210 300,215 T400,215" stroke="white" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Clouds around Table Mountain -->
+  <ellipse cx="200" cy="75" rx="80" ry="15" fill="white" opacity="0.7"/>
+  <ellipse cx="150" cy="70" rx="40" ry="10" fill="white" opacity="0.5"/>
+  <ellipse cx="280" cy="72" rx="50" ry="12" fill="white" opacity="0.6"/>
+  
+  <!-- Penguins on beach -->
+  <ellipse cx="50" cy="250" rx="3" ry="8" fill="#2C3E50"/>
+  <ellipse cx="50" cy="245" rx="2" ry="3" fill="white"/>
+  <ellipse cx="70" cy="248" rx="3" ry="8" fill="#2C3E50"/>
+  <ellipse cx="70" cy="243" rx="2" ry="3" fill="white"/>
+  
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8)">CAPE TOWN</text>
+</svg>
