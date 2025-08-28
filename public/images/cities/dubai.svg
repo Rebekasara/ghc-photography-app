@@ -1,0 +1,46 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="desertSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Desert sunset sky -->
+  <rect width="400" height="300" fill="url(#desertSky)"/>
+  
+  <!-- Burj Khalifa -->
+  <g transform="translate(200,50)">
+    <polygon points="-4,200 4,200 3,0 -3,0" fill="#2C3E50"/>
+    <polygon points="-6,150 6,150 4,50 -4,50" fill="#34495E"/>
+    <polygon points="-8,180 8,180 6,100 -6,100" fill="#2C3E50"/>
+    <!-- Spire -->
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#2C3E50" stroke-width="2"/>
+  </g>
+  
+  <!-- Other skyscrapers -->
+  <rect x="50" y="120" width="25" height="130" fill="#34495E"/>
+  <rect x="80" y="100" width="30" height="150" fill="#2C3E50"/>
+  <rect x="120" y="140" width="20" height="110" fill="#34495E"/>
+  <rect x="280" y="110" width="35" height="140" fill="#2C3E50"/>
+  <rect x="320" y="130" width="25" height="120" fill="#34495E"/>
+  <rect x="350" y="120" width="30" height="130" fill="#2C3E50"/>
+  
+  <!-- Palm tree -->
+  <g transform="translate(30,200)">
+    <rect x="-3" y="0" width="6" height="50" fill="#8B4513"/>
+    <ellipse cx="0" cy="-5" rx="20" ry="12" fill="#228B22"/>
+  </g>
+  
+  <!-- Desert dunes -->
+  <path d="M0,250 Q100,230 200,250 T400,240" fill="#DEB887"/>
+  <path d="M0,270 Q150,250 300,270 T400,260" fill="#D2B48C"/>
+  
+  <!-- Building lights -->
+  <rect x="55" y="140" width="2" height="2" fill="#FFD700"/>
+  <rect x="85" y="120" width="2" height="2" fill="#00FFFF"/>
+  <rect x="285" y="130" width="2" height="2" fill="#FFD700"/>
+  <rect x="325" y="150" width="2" height="2" fill="#00FFFF"/>
+  
+  <text x="200" y="290" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8)">DUBAI</text>
+</svg>

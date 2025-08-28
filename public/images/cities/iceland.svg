@@ -1,0 +1,45 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="arcticSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000428;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#004e92;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004e92;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00FF7F;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#00CED1;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#9370DB;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Night sky -->
+  <rect width="400" height="300" fill="url(#arcticSky)"/>
+  
+  <!-- Aurora Borealis -->
+  <path d="M0,80 Q100,60 200,80 T400,70" stroke="url(#aurora)" stroke-width="15" fill="none" opacity="0.7"/>
+  <path d="M0,100 Q150,85 300,95 T400,90" stroke="url(#aurora)" stroke-width="12" fill="none" opacity="0.5"/>
+  <path d="M50,120 Q200,105 350,115" stroke="url(#aurora)" stroke-width="8" fill="none" opacity="0.6"/>
+  
+  <!-- Stars -->
+  <circle cx="50" cy="30" r="2" fill="white"/>
+  <circle cx="150" cy="25" r="1.5" fill="white"/>
+  <circle cx="250" cy="40" r="2" fill="white"/>
+  <circle cx="350" cy="20" r="1.5" fill="white"/>
+  <circle cx="100" cy="50" r="1" fill="white"/>
+  <circle cx="300" cy="35" r="1" fill="white"/>
+  
+  <!-- Snowy mountains -->
+  <polygon points="0,200 80,120 160,200" fill="#F8F8FF"/>
+  <polygon points="120,200 200,140 280,200" fill="#F0F8FF"/>
+  <polygon points="240,200 320,130 400,200" fill="#F8F8FF"/>
+  
+  <!-- Frozen lake -->
+  <ellipse cx="200" cy="240" rx="150" ry="30" fill="#B0E0E6" opacity="0.8"/>
+  
+  <!-- Small cabin -->
+  <rect x="180" y="180" width="40" height="30" fill="#8B4513"/>
+  <polygon points="175,180 200,160 225,180" fill="#654321"/>
+  <rect x="190" y="190" width="8" height="12" fill="#FFD700"/>
+  
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8)">ICELAND</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tropicalSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F7931E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD23F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sunset sky -->
+  <rect width="400" height="300" fill="url(#tropicalSky)"/>
+  
+  <!-- Temple silhouette -->
+  <g transform="translate(200,150)">
+    <!-- Main temple structure -->
+    <rect x="-60" y="0" width="120" height="100" fill="#2C3E50"/>
+    <!-- Temple roof tiers -->
+    <polygon points="-70,0 70,0 60,-20 -60,-20" fill="#34495E"/>
+    <polygon points="-50,-20 50,-20 40,-35 -40,-35" fill="#2C3E50"/>
+    <polygon points="-30,-35 30,-35 20,-45 -20,-45" fill="#34495E"/>
+    <!-- Spire -->
+    <polygon points="-10,-45 10,-45 0,-60" fill="#2C3E50"/>
+  </g>
+  
+  <!-- Palm trees -->
+  <g transform="translate(80,200)">
+    <rect x="-3" y="0" width="6" height="60" fill="#8B4513"/>
+    <ellipse cx="0" cy="-10" rx="25" ry="15" fill="#228B22"/>
+  </g>
+  
+  <g transform="translate(320,180)">
+    <rect x="-3" y="0" width="6" height="80" fill="#8B4513"/>
+    <ellipse cx="0" cy="-10" rx="30" ry="18" fill="#228B22"/>
+  </g>
+  
+  <!-- Mountains in background -->
+  <polygon points="0,200 100,120 200,200" fill="#2C3E50" opacity="0.6"/>
+  <polygon points="200,200 300,100 400,200" fill="#34495E" opacity="0.6"/>
+  
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8)">BALI</text>
+</svg>
