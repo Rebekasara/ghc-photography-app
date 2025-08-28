@@ -1,0 +1,61 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="londonSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#708090;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B0C4DE;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Overcast London sky -->
+  <rect width="400" height="300" fill="url(#londonSky)"/>
+  
+  <!-- Big Ben -->
+  <g transform="translate(120,100)">
+    <!-- Clock tower base -->
+    <rect x="-15" y="100" width="30" height="100" fill="#8B7355"/>
+    <!-- Clock tower middle -->
+    <rect x="-12" y="50" width="24" height="50" fill="#A0522D"/>
+    <!-- Clock tower top -->
+    <rect x="-10" y="20" width="20" height="30" fill="#8B7355"/>
+    <!-- Spire -->
+    <polygon points="-8,20 8,20 0,0" fill="#696969"/>
+    <!-- Clock face -->
+    <circle cx="0" cy="35" r="8" fill="white" stroke="#2C3E50" stroke-width="1"/>
+    <line x1="0" y1="35" x2="0" y2="30" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="0" y1="35" x2="4" y2="35" stroke="#2C3E50" stroke-width="1"/>
+  </g>
+  
+  <!-- Houses of Parliament -->
+  <rect x="150" y="150" width="100" height="50" fill="#8B7355"/>
+  <rect x="160" y="140" width="15" height="10" fill="#A0522D"/>
+  <rect x="180" y="135" width="15" height="15" fill="#A0522D"/>
+  <rect x="200" y="140" width="15" height="10" fill="#A0522D"/>
+  <rect x="220" y="138" width="15" height="12" fill="#A0522D"/>
+  
+  <!-- London Eye -->
+  <g transform="translate(320,150)">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#C0C0C0" stroke-width="3"/>
+    <line x1="-40" y1="0" x2="40" y2="0" stroke="#C0C0C0" stroke-width="1"/>
+    <line x1="0" y1="-40" x2="0" y2="40" stroke="#C0C0C0" stroke-width="1"/>
+    <!-- Passenger pods -->
+    <rect x="35" y="-5" width="8" height="10" fill="#4169E1" rx="2"/>
+    <rect x="-5" y="-43" width="10" height="8" fill="#4169E1" rx="2"/>
+    <rect x="-43" y="-5" width="8" height="10" fill="#4169E1" rx="2"/>
+  </g>
+  
+  <!-- Thames River -->
+  <path d="M0,220 Q200,200 400,220" fill="#4682B4" stroke="#4682B4" stroke-width="20"/>
+  
+  <!-- London Bridge -->
+  <rect x="180" y="210" width="40" height="8" fill="#696969"/>
+  <rect x="185" y="200" width="6" height="18" fill="#696969"/>
+  <rect x="209" y="200" width="6" height="18" fill="#696969"/>
+  
+  <!-- Red double-decker bus -->
+  <rect x="50" y="180" width="25" height="15" fill="#DC143C"/>
+  <rect x="52" y="175" width="21" height="5" fill="#DC143C"/>
+  <circle cx="55" cy="195" r="3" fill="#2C3E50"/>
+  <circle cx="70" cy="195" r="3" fill="#2C3E50"/>
+  
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8)">LONDON</text>
+</svg>
