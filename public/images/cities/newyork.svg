@@ -1,0 +1,51 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nycSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45B7D1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- NYC sky -->
+  <rect width="400" height="300" fill="url(#nycSky)"/>
+  
+  <!-- Empire State Building -->
+  <g transform="translate(150,80)">
+    <rect x="-8" y="120" width="16" height="80" fill="#2C3E50"/>
+    <rect x="-6" y="80" width="12" height="40" fill="#34495E"/>
+    <rect x="-4" y="40" width="8" height="40" fill="#2C3E50"/>
+    <polygon points="-4,40 4,40 0,20" fill="#34495E"/>
+    <!-- Antenna -->
+    <line x1="0" y1="20" x2="0" y2="0" stroke="#2C3E50" stroke-width="2"/>
+  </g>
+  
+  <!-- Other Manhattan buildings -->
+  <rect x="20" y="140" width="30" height="160" fill="#34495E"/>
+  <rect x="60" y="120" width="25" height="180" fill="#2C3E50"/>
+  <rect x="90" y="160" width="35" height="140" fill="#34495E"/>
+  <rect x="200" y="130" width="40" height="170" fill="#2C3E50"/>
+  <rect x="250" y="110" width="30" height="190" fill="#34495E"/>
+  <rect x="290" y="150" width="25" height="150" fill="#2C3E50"/>
+  <rect x="320" y="100" width="35" height="200" fill="#34495E"/>
+  <rect x="360" y="140" width="30" height="160" fill="#2C3E50"/>
+  
+  <!-- Chrysler Building spire -->
+  <g transform="translate(280,110)">
+    <polygon points="-3,0 3,0 0,-15" fill="#C0C0C0"/>
+  </g>
+  
+  <!-- Building windows -->
+  <rect x="25" y="160" width="3" height="3" fill="#FFD700"/>
+  <rect x="35" y="180" width="3" height="3" fill="#FFD700"/>
+  <rect x="65" y="140" width="3" height="3" fill="#00FFFF"/>
+  <rect x="95" y="180" width="3" height="3" fill="#FFD700"/>
+  <rect x="205" y="150" width="3" height="3" fill="#00FFFF"/>
+  <rect x="255" y="130" width="3" height="3" fill="#FFD700"/>
+  <rect x="325" y="120" width="3" height="3" fill="#00FFFF"/>
+  
+  <!-- Water/Hudson River -->
+  <rect y="280" width="400" height="20" fill="#1E6091"/>
+  
+  <text x="200" y="275" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8)">NEW YORK</text>
+</svg>
