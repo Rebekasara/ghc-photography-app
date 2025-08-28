@@ -1,0 +1,59 @@
+{
+  "name": "Golden Hour Calculator - Photography Planning Tool",
+  "short_name": "Golden Hour",
+  "description": "Professional golden hour calculator with real-time weather, sun tracking, and photography planning tools",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d97706",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["photography", "utilities", "weather"],
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-1024.svg",
+      "sizes": "1024x1024",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Golden Hour Calculator Main View"
+    },
+    {
+      "src": "/screenshot-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Interactive Map with Sun Position"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Current Location",
+      "short_name": "Location",
+      "description": "Calculate golden hour for current location",
+      "url": "/?auto=true",
+      "icons": [{ "src": "/icon-96.svg", "sizes": "96x96", "type": "image/svg+xml" }]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}
